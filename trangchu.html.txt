@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - anh tuấn Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active-link">Trang Chủ</a></li>
+                <li><a href="thongtin.html">Thông Tin (41T2)</a></li>
+                <li><a href="dichvu.html">Dịch Vụ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="main-title">CHI ÂN WEB DESIGN</h1>
+        <hr class="divider">
+        
+        <section class="section intro-section">
+            <h2>Chào mừng đến với Trang Web của Chi Ân</h2>
+            <p>
+                Tôi là **Chi Ân**, một nhà phát triển web với sứ mệnh biến ý tưởng của bạn thành hiện thực trực tuyến một cách chuyên nghiệp và tối ưu nhất.
+            </p>
+            <p>
+                Với kinh nghiệm về **Front-end** (HTML5, CSS3, JavaScript), tôi cam kết mang lại những trải nghiệm người dùng mượt mà và trực quan.
+            </p>
+            <div class="cta-box">
+                <a href="dichvu.html" class="cta-button">Xem Dịch Vụ Của Tôi</a>
+                <a href="thongtin.html" class="cta-button secondary-cta">Tìm Hiểu Về Tôi (41T2)</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Chi Ân Web Design. Liên hệ: <a href="mailto:contact@chianweb.com">contact@chianweb.com</a></p>
+    </footer>
+
+</body>
+</html>
